@@ -1,9 +1,9 @@
-"use client";
+import { Suspense } from 'react';
 
-import React, { useState } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
+import { useSearchParams } from 'next/navigation';
 
-export default function Home() {
+function MainLayoutContent() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
