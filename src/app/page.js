@@ -1,5 +1,6 @@
-import { Suspense } from 'react';
+'use client';
 
+import { Suspense, useState } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 function MainLayoutContent() {
