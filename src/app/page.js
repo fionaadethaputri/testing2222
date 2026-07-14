@@ -1,6 +1,5 @@
 import { Suspense } from 'react';
 
-import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
 function MainLayoutContent() {
